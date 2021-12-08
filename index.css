@@ -90,6 +90,7 @@ nav{
     text-decoration: none;
     letter-spacing: 13px;
     color:black;
+    text-transform:uppercase;
 }
 .slider-controls{
     background:black;
@@ -131,6 +132,7 @@ nav{
 .about-info h2{
     font-weight:600;
     margin-bottom:20px;
+    font-weight:500;
 }
 .about-info p{
     color:hsl(0, 0%, 63%);
