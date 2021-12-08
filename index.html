@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+<body>
+  <section class="header">
+      <div class="header-intro" id="imageSlide">
+        <nav>
+          <img id="logo" src="images/logo.svg" alt="logo">
+          <div class="nav-links" id="navLinks">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <img id="menuClose" src="images/icon-close.svg" alt= "menu controls" onclick="closeMenu()">
+          </div>
+          <img id="menuOpen" src="images/icon-hamburger.svg" alt= "menu controls" onclick="openMenu()">
+        </nav>
+        <div class="nav-back" id='navBack'></div>
+      <div class="slider" id="slider">
+        <img src="images/desktop-image-hero-1.jpg" alt= "image">
+        <img src="images/desktop-image-hero-2.jpg" alt= "image">
+        <img src="images/desktop-image-hero-3.jpg" alt= "image">
+      </div>
+      </div>
+    </div>
+    <div class="header-control">
+      <div class="headerTxt">
+        <h1 id="headerText">Discover innovative ways to decorate</h1>
+        <p id="headerPara">We provide unmatched quality, comfort, and style for property owners across the country. 
+          Our experts combine form and function in bringing your vision to life. Create a room in your 
+          own style with our collection and make your property a reflection of you and what you love.</p>
+          <div class="shop-now">
+            <a href="#">Shop Now</a>
+          </div>
+        </div>
+      <div class="slider-controls">
+        <div onclick = "scrlleft()" class="scrollLeft">
+          <img src="images/icon-angle-left.svg" alt="scroll left">
+        </div>
+        <div onclick = "scrlright()" class="scrollRight">
+          <img src="images/icon-angle-right.svg" alt="scroll right">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="aboutImg1"></div>
+    <div class="about-info">
+      <h2>About our Furniture</h2>
+      <p>  Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.</p>
+    </div>
+    <div class="aboutImg2"></div>
+  </section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Malik Coleman</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
