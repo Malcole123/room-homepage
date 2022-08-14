@@ -23,7 +23,7 @@
 }
 .slider{
     display: flex;
-    width:60%;
+    width:45%;
     height:100%;
     scroll-snap-type:x mandatory;
 }
