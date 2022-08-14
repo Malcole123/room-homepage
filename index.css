@@ -28,7 +28,7 @@
     scroll-snap-type:x mandatory;
 }
 .slider img{
-    width:100vw;
+    width:100%;
     scroll-snap-align: center;
 }
 
